@@ -9,6 +9,7 @@ a : list[str] = []
 with open("urls.txt") as f:
     for x in f:
         a.append(x.strip())
+        print(x)
 
 
 start = time.perf_counter()
